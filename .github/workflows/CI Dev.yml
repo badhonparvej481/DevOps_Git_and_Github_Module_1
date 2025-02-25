@@ -1,0 +1,15 @@
+name: CI DEV
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
