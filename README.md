@@ -14,20 +14,20 @@ https://github.com/badhonparvej481/DevOps_Git_and_Github_Module_1.git
 
 ## 1. Configuration
 
-# Check if Git is installed
+### Check if Git is installed
 ```shell
 git --version
 ```
 
-# Set user name
+### Set user name
 ```shell
 git config --global user.name "Your Name"
 ```
-# Set email
+### Set email
 ```shell
 git config --global user.email "your-email@example.com"
 ```
-# Check configuration
+### Check configuration
 ```shell
 git config --list
 ```
