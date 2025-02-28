@@ -6,17 +6,13 @@
 
 ## Git Branching Practices Online
 
-```shell
-- ***[Learngitbranching](https://learngitbranching.js.org/)*
-```
+- **[Learngitbranching](https://learngitbranching.js.org/)**
 
 ## List of Useful Git Commands:
 
-```shell
 - **[Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)**
 - **[Atlassian Commands](https://www.atlassian.com/git/glossary#commands)**
 - **[Atlassain Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)**
-```
 
 ## 1. Configuration
 
@@ -143,7 +139,7 @@ git branch
 - Merge a branch into the current branch
 
 ```shell
-  git merge <branch_name>
+git merge <branch_name>
 ```
 
 - Rebase the current branch onto another branch
@@ -160,7 +156,7 @@ git rebase <branch_name>
 git checkout -- <file_name>
 ```
 
--Unstage a file
+- Unstage a file
 
 ```shell
 git reset HEAD <file_name>
@@ -172,7 +168,7 @@ git reset HEAD <file_name>
 git commit --amend -m "New commit message"
 ```
 
--Revert a commit
+- Revert a commit
 
 ```shell
 git revert <commit_hash>
@@ -181,7 +177,7 @@ git revert <commit_hash>
 
 ## 7. Statching Changes
 
--Save uncommitted changes
+- Save uncommitted changes
 
 ```shell
 git stash
